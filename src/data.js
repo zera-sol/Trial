@@ -1,4 +1,4 @@
-export default [
+ let data = [
         {
             name : "Zerihun",
             age : 21,
@@ -13,3 +13,5 @@ export default [
             department : "Software Engeenering"
         }
 ]
+
+export default data;
