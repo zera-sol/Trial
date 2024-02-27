@@ -9,6 +9,7 @@ import data from "./data";
 const studentFile =  data.map((a)=>{
    return (
       <Person  
+         image = {a.image}
          name = {a.name}
          age = {a.age}
          department = {a.department}/>

@@ -1,4 +1,5 @@
 import React from "react";
+import sol from "./images/sol-dv-2.jpg"
 
 export default function Body(){
    const date = new Date();
