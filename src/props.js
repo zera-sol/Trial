@@ -1,6 +1,12 @@
 import React from "react"
 
 export default function Person(props){
+    let num = ["zera", "sol", "siyum"];
+    let zera = num.map((a)=> {
+        return `<p>${a}</p>`
+    })
+        console.log(zera)
+
     return(
         <div>
             <div className="person">
