@@ -36,6 +36,7 @@ code {
   width: 80px;
  }
  .body{
+  margin-top: -25px;
   height: fit-content ;
   width:100%;
   background-color:  rgb(3, 3, 34);
@@ -56,3 +57,12 @@ code {
  .body ol li{
   padding-top: 25px;
  }
+ .person{
+  Padding-top: 25px;
+  margin-top: -25px;
+  background-color: rgb(3, 3, 34); 
+  color: white;
+ }
+ .person  div{
+     border: 2px gray solid;
+ } 
