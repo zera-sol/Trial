@@ -66,6 +66,7 @@ code {
      border: 2px gray solid;
  } 
   .profile{
+  display: flex;
   border: 0;
   height: 60px;
   width: 60px;
@@ -75,4 +76,13 @@ code {
   width: 80px;
   margin-left: 50px;
   border-radius: 50%;
+ }
+ .profile .attendance{
+  margin: 10px 0 0 50px;
+  padding:20px;
+  width:30px;
+  height:30px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  background-color: green;
  }

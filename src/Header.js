@@ -2,12 +2,16 @@ import React from "react";
 import data from "./data.js";
 
 data.push({
+   attendance: true,
+   id: data.length,
    image:require("./images/zera.jpg"),
    name:"Keyo",
    age : 22,
    department: "Accounting"
 })
 data.push({
+   attendance: false,
+   id: data.length,
    image: require("./images/msg632510844-92729.jpg"),
    name: "Yimu",
    age: 19,
