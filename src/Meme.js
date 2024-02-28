@@ -2,24 +2,21 @@ import React from "react"
 import images from "./images"
 import { useState } from "react";
 
-let zera = ["Thing 1"];
 export default function Meme(){
     let myStyle ={
         color: "white"
     }
     let [num, setNum] = useState(0);
-    let [item, setItem] = useState(2);
+    let [item, setItem] = useState([]);
     let list;
     
     function generateRandomNumber(){
-         zera.push(`Thing ${item}`)
             const x = Math.floor(Math.random()*(images.length))
             setNum(x)
-            let y = item + 1;
-            setItem(y)
-           
-       }    
-          list = zera.map((a) => <p style={myStyle}>{a}</p>)
+            let newArray = [...item, `Thing ${item.length +1}`];
+            setItem(newArray);
+           }    
+          list = item.map((a) => <p style={myStyle}>{a}</p>)
     return(
         <div className="dynamic">
             <div className="dynamic-image">
