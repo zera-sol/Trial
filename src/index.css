@@ -98,3 +98,41 @@ code {
   width: 100px;
   height: 100px;
  }
+ .addition {
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   border: 2px solid grey;
+   border-radius: 50%;
+   background-color: azure;
+ }
+ .counter{
+  display: flex;
+  align-items: center;
+ }
+ .value{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid grey;
+  color:white;
+ }
+ .sub, .add{
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  border: 2px solid grey;
+  border-radius: 50%;
+ }
+.sub:hover, .add:hover{
+  background-color: rgb(37, 95, 76);
+}
