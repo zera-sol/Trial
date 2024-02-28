@@ -5,6 +5,7 @@ import Header from "./Header";
 import Body from "./Body";
 import Person from "./props";
 import data from "./data";
+import Meme from "./Meme";
 
 const studentFile =  data.map((a)=>{
    return (
@@ -24,8 +25,10 @@ for(let i = 0; i < data.length; i++){
 ReactDOM.render(
     <div>
        <Header />
+       <Meme />
        {studentFile}
        <Body />
+       
     </div>
          , document.getElementById("root")
 )

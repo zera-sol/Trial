@@ -86,3 +86,15 @@ code {
   border-radius: 50%;
   background-color: green;
  }
+ .dynamic{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -ms-flex-item-align: stretch;
+ }
+ .dynamic div img{
+  margin-bottom: 25px;
+  width: 100px;
+  height: 100px;
+ }
