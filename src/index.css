@@ -136,3 +136,58 @@ code {
 .sub:hover, .add:hover{
   background-color: rgb(37, 95, 76);
 }
+.form_div{
+  display: flex;
+  flex-direction: column;
+  width:500px;
+  height: 500px;
+  padding: 35px;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.form_div label{
+  padding:10px;
+  color: rgb(165, 26, 49);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  line-height: 15px;
+  text-indent: 8px;
+  margin-top: 10px;
+}
+.form_div input, .form_div textarea{
+  width: 100%;
+  padding: 25px;
+  background-color:rgb(85, 102, 134);
+  color: white;
+}
+.form_div button{
+  padding: 15px;
+  background-color: rgb(165, 26, 49); 
+  width: 25%;
+  color: white;
+  margin: 15px 0 0 50%;
+}
+.blog_title{
+  font-family: cursive;
+  font-weight: bold;
+  line-height: 12px;
+  margin: 25px 10px;
+  text-align: center;
+  color:rgb(165, 26, 49);
+}
+.blog_discription{
+  font-family: sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0px 5px;
+  color: rgb(221, 203, 203);
+}
+.blog_author{
+  font-family: cursive;
+  font-weight: 200;
+  line-height: normal;
+  margin-top:25px;
+  margin-left: 80%;
+}

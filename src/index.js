@@ -7,6 +7,7 @@ import Person from "./props";
 import data from "./data";
 import Meme from "./Meme";
 import Counter from "./counter";
+import Form from "./form";
 
 const studentFile =  data.map((a)=>{
    return (
@@ -26,6 +27,7 @@ for(let i = 0; i < data.length; i++){
 ReactDOM.render(
     <div>
        <Header />
+       <Form />
        <Counter />
        <Meme />
        {studentFile}
