@@ -4,7 +4,7 @@ export default function Person(props){
     const attendanceStyle = {
         backgroundColor: props.attendance?"green":"red"
     }
-   
+   console.log(props)
     return(
         <div>
             <div className="person">
@@ -17,6 +17,7 @@ export default function Person(props){
                     {props.age ? <h4>Age: {props.age}</h4>: <h4>Age: Unknown!</h4>}
                     {props.department? <h6>Department: {props.department}</h6>: <h6>Department: Unknown!</h6>}
                 </div>
+                <button onClick={props.clickDelete}>Delete the Person</button>
             </div>
         </div>
     )

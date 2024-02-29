@@ -6,6 +6,10 @@ export default function Form(){
     let [blogDescription, setBlogDescription] = useState("")
     let [blogAuthor, setBlogAuthor] = useState("")
 
+    function greeting(blogAuthor){
+        console.log(`Hello ${blogAuthor}`)
+    }
+   
     return(
         <div className='form_div'>
             <form>
@@ -27,7 +31,7 @@ export default function Form(){
                     required
                     value={blogAuthor}
                     onChange={(e) => setBlogAuthor(e.target.value)} />
-                <button type='submit'>Submit</button>
+                <button onClick={()=> greeting(blogAuthor)}>Submit</button>
             </form>
             <h1 className='blog_title'>{blogTitle}</h1>
             <p className='blog_discription'>{blogDescription}</p>
