@@ -140,7 +140,7 @@ code {
   display: flex;
   flex-direction: column;
   width:500px;
-  height: 500px;
+  height: fit-content;
   padding: 35px;
   margin: 50px auto;
   align-items: center;
@@ -190,4 +190,9 @@ code {
   line-height: normal;
   margin-top:25px;
   margin-left: 80%;
+}
+.blog_input{
+  display: block;
+  width: 100%;
+  height: fit-content;
 }

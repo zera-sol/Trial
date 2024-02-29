@@ -9,9 +9,7 @@ export default function PropsGenerator(){
     function deleteAPerson(id){
           let newArray = profileData.filter((a) => a.id !== id);
           setProfileData(newArray)
-          console.log(newArray, id)
-          profileData[id].attendance = null;
-    }
+         }
      
     const student = profileData.map((a)=>{
         return (<Person  

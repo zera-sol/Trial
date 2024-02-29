@@ -33,9 +33,11 @@ export default function Form(){
                     onChange={(e) => setBlogAuthor(e.target.value)} />
                 <button onClick={()=> greeting(blogAuthor)}>Submit</button>
             </form>
-            <h1 className='blog_title'>{blogTitle}</h1>
-            <p className='blog_discription'>{blogDescription}</p>
-            <p className='blog_author'>{blogAuthor}</p>
+            <div className='blog_input'>
+                <h1 className='blog_title'>{blogTitle}</h1>
+                <p className='blog_discription'>{blogDescription}</p>
+                <p className='blog_author'>{blogAuthor}</p>
+            </div>            
         </div>
     )
 }
