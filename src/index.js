@@ -6,7 +6,7 @@ import Body from "./Body";
 import Meme from "./Meme";
 import Counter from "./counter";
 import Form from "./form";
-import PropsGenerator from "./popsGenerator";
+// import PropsGenerator from "./popsGenerator";
 
 ReactDOM.render(
     <div>
@@ -14,7 +14,7 @@ ReactDOM.render(
        <Form />
        <Counter />       
        <Meme />       
-       <PropsGenerator />
+       {/* <PropsGenerator /> */}
        <Body />
     </div>
          , document.getElementById("root")

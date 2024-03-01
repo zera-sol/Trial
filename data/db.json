@@ -1,0 +1,20 @@
+{
+    "blogs": [
+                    {
+                        "attendance": 1,
+                        "id": 0,
+                        "image": "./images/red-dv.jpg",
+                        "name" : "Zerihun",
+                        " age" : 21,
+                        "department" : "Computer Science"
+                    },
+                    {
+                        "attendance": 0,
+                        "id": 1,
+                        "image":"./images/sol-dv-2.jpg",
+                        "name" : "Kaleb",
+                        "age" : 20,
+                        "department" : "Software Engeenering"
+                    }
+             ]
+}

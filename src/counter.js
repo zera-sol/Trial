@@ -1,5 +1,5 @@
 import React from "react"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 export default function Counter(){
     let [x , setx] = useState(0)
@@ -14,10 +14,6 @@ export default function Counter(){
         let newNum = x<=0? 0 : x - 1;
         setx(newNum)
     }
-    useEffect(() => {
-        console.log("use effect ran")
-        console.log(y)
-    })
     return(
         <div className="counter">
                 <div className="sub" onClick={subtractor}><h1>-</h1></div>
