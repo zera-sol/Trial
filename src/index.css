@@ -196,3 +196,7 @@ code {
   width: 100%;
   height: fit-content;
 }
+.zera-box{
+  display: flex;
+  color: white;
+}

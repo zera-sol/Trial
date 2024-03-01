@@ -1,17 +1,17 @@
 {
     "blogs": [
                     {
-                        "attendance": 1,
+                        "attendance": true,
                         "id": 0,
-                        "image": "./images/red-dv.jpg",
+                        "image": "../src/images/red-dv.jpg",
                         "name" : "Zerihun",
                         " age" : 21,
                         "department" : "Computer Science"
                     },
                     {
-                        "attendance": 0,
+                        "attendance": false,
                         "id": 1,
-                        "image":"./images/sol-dv-2.jpg",
+                        "image":"../src/images/sol-dv-1.JPG",
                         "name" : "Kaleb",
                         "age" : 20,
                         "department" : "Software Engeenering"
