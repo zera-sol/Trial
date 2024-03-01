@@ -25,5 +25,4 @@ function Zera(){
         </div>
     )
 }
-
-export default Zera;
+                    export default Zera;
