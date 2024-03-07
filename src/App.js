@@ -4,11 +4,11 @@ import Navbar from "./compnents/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
 import AddBlog from "./pages/blogs";
 import Home from "./pages/Home"
-import Detail from "./pages/detail";
+import Blog from "./compnents/blog";
 
 
 function App(){
-  
+ 
     return (
         <Router>
             <div>
@@ -21,7 +21,7 @@ function App(){
                         <AddBlog />
                     </Route>
                     <Route path="/detail">
-                        <Detail />
+                        <Blog />
                     </Route>
                 </Switch>
             </div>        

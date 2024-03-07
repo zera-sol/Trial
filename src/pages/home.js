@@ -3,20 +3,14 @@ import { useState } from "react";
 import useFetch from "../useFetch";
 
 
-function Home({zera}){
-    const [id, setId] = useState(null)
+function Home(){
        const Blog = useFetch("http://localhost:9000/Blogs")
-
-      function findId(obj){
-        setId(obj.id)
-     }
-    
     return(
         <div className="all_blog">            
                 {
                     Blog.map((a) => (
                      <a href="/detail">
-                        <div className="blog" onClick={zera}>
+                        <div className="blog" >
                            
                            <h2>{a.title}</h2>
                            <h4>Written by {a.author}</h4>
@@ -25,7 +19,7 @@ function Home({zera}){
                      </a> 
                     )                     
                     )
-                }            
+                }           
         </div>
     )
 }
