@@ -1,21 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom"
-import Header from "./Header";
-import Body from "./Body";
-import "./index.css"
-import Meme from "./Meme";
-import Counter from "./counter";
-import Form from "./form";
-import Zera from "./zera";
+import App from "./App";
 
 ReactDOM.render(
     <div>
-       <Header />
-       <Zera />
-       <Form />
-       <Counter />       
-       <Meme />       
-       <Body />
+       <App />
     </div>
          , document.getElementById("root")
 )

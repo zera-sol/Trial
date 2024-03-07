@@ -1,20 +1,16 @@
 {
-    "blogs": [
-                    {
-                        "attendance": true,
-                        "id": 0,
-                        "image": "../src/images/red-dv.jpg",
-                        "name" : "Zerihun",
-                        " age" : 21,
-                        "department" : "Computer Science"
-                    },
-                    {
-                        "attendance": false,
-                        "id": 1,
-                        "image":"../src/images/sol-dv-1.JPG",
-                        "name" : "Kaleb",
-                        "age" : 20,
-                        "department" : "Software Engeenering"
-                    }
-             ]
+    "Blogs":[
+        {
+            "id": 1,
+            "title": "Ethiopia",
+            "detail": "Ethipia is one of the most Populated state in the world.",
+            "author": "Zerihun"
+        },
+        {
+            "id": 2,
+            "title": "Ethiopia",
+            "detail": "Ethipia is one of the most Populated state in the world.it is lcated in the horn of Africa, boasts a rich apestry of history, culture, and natural beauty. As one of the oldest nations in the world, Ethiopia is steeped in ancient traditions and has a diverse populations speaking over 80 different languages. the countrysi landscape range from the lush hihglands to the rugged mourntasn and the otherworldly Danakil depressionn. Ethipia is known for its unique cuisne highlighed by injera a sourdough flaatfg sop stews. moreover, Ethipis home to  lfj3oej",
+            "author": "Kaleb"
+        }
+    ]
 }
