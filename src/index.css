@@ -113,3 +113,8 @@ nav{
   font-family: cursive;
   font-weight: bold;
  }
+ form p{
+  margin-left: 25%;
+  font-weight: bold;
+  color: green;
+ }

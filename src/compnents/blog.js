@@ -1,6 +1,7 @@
 import React from "react";
 // import { useEffect, useState } from "react";
 import useFetch from "../useFetch";
+
 function  Blog(){
   let deta = useFetch('http://localhost:9000/Blogs');
          
