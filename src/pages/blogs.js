@@ -1,16 +1,20 @@
 import React, { useState } from "react";
-import useFetch from "../useFetch";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+
 
 
 function AddBlog(){
-    const data = useFetch("http://localhost:9000/Blogs");
+    let history = useHistory()
     const [isPending, setIsPending] = useState(false)
-    const [title, setTitle] = useState("");
+    const [title, setTitle] = useState("")
     const [detail, setDetail] = useState("")
     const [author, setAuthor] = useState("")
 
     function message(){
-        setIsPending(true);
+        setIsPending(true)
+     setInterval(() => {
+        setIsPending(false)
+     }, 7000);
        
     }
 function addBlog(e){
@@ -24,7 +28,7 @@ function addBlog(e){
     
     message()
 }
-     
+
 
     return(
         <div className="new_blog">

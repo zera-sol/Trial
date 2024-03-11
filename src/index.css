@@ -118,3 +118,11 @@ nav{
   font-weight: bold;
   color: green;
  }
+ .btn_delete{
+   background-color: red;
+   color: white;
+   margin-left: 40%;
+   border: none;
+   padding: 5px;
+   border-radius: 10%;
+ }
