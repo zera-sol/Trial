@@ -6,6 +6,11 @@ export default function SideBar(){
         width: 0,
         transition: "2s"
     }
+    const myStyle2 = {
+        width:"300px", 
+        display:"block",
+        transition: "2s"
+    }
     function removeWidth(){
         setIsZero(true)
     }
@@ -17,7 +22,7 @@ export default function SideBar(){
             <div className="menubar" onClick={addWidth}>
                  <i class="fa-solid fa-bars"></i>
             </div>
-            <div className="sidebar" style={isZero ? myStyle:console.log("The width is not zro")}>
+            <div className="sidebar" style={isZero ? myStyle:myStyle2}>
                   <div className="sidebar_icon_close">
                         <i class="fa-solid fa-xmark" onClick={removeWidth}></i>
                         <ul>
