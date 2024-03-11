@@ -3,6 +3,7 @@ import "./index.css"
 import NavBar from "./compnents/Nav";
 import Hero from "./compnents/Hero";
 import Button from "./compnents/button";
+import SideBar from "./compnents/Sidebar";
 
 function App(){
     return(
@@ -10,6 +11,7 @@ function App(){
        <NavBar />
        <Hero />
        <Button />
+       <SideBar/>
     </div>
     )
 }  
