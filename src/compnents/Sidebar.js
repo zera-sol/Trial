@@ -1,14 +1,13 @@
 import { useState } from "react"
 
 export default function SideBar(){
-    const [isZero, setIsZero] = useState(false)
+    const [isZero, setIsZero] = useState(true)
     const myStyle = {
         width: 0,
         transition: "2s"
     }
     const myStyle2 = {
-        width:"300px", 
-        display:"block",
+        width:"300px",
         transition: "2s"
     }
     function removeWidth(){
