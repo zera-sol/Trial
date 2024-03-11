@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 80%;
+  width: 85%;
   margin: 20px auto;
   background-color: #232732;
   padding: 0px 75px;
@@ -49,4 +49,91 @@ code {
 .nav_bar ul li a:hover{
   color: white;
   letter-spacing: 0.6px;
+}
+.hero{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .img-section{
+  width: 400px;
+  height: 400px;
+  padding-bottom: 10px;
+  background-color: #232732;
+  border-radius: 50%;
+  box-shadow: -4px 4px 100px rgb(201, 199, 199);;
+ }
+ .img-section img{
+    height: 85%;
+    margin-left: 10%;
+ }
+ .hero_text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px ;
+  margin-top: 50px;
+ }
+ .hero_text h4{
+  letter-spacing: 0.38px;
+  font-size: 38px;
+  font-weight: normal;
+ }
+ .hero_text h2{
+  letter-spacing: 0.38px;
+  font-size: 52px;
+  font-weight: bold;
+ }
+ .hero_text h3{
+  letter-spacing: 0.38px;
+  font-size: 32px;
+  font-weight: medium;
+ }
+ .hero_text h3 span{
+  color: #d32d20;
+ }
+ .hero_text p{
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin-top: 20px;
+  text-align: center;
+  width: 60%;
+ }
+ .buttons{
+  margin: 100px 0 0 25%;
+  color: white;
+  display: block;
+ }
+ .buttons ul{
+  display: flex;
+  gap: 30%;
+  list-style: none;
+ }
+ .buttons ul li{
+  width: 148px;
+  height: 60px;
+  background-color: #23272c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  box-shadow: -2px 2px 5px rgb(139, 138, 138);
+  animation:zera 1s infinite alternate;
+ }
+ .buttons ul li a{
+  color: white;
+  text-decoration: none;
+ }
+
+
+ @keyframes zera {
+  0% {
+    box-shadow: -2px 2px 10px rgb(139, 138, 138);
+  }
+  100%{
+    box-shadow: -2px 2px 10px rgb(255, 255, 255);
+  }
 }
