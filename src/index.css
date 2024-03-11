@@ -291,7 +291,7 @@ code {
 .sidebar i{
   color:white;
   font-size: 50px;
-  margin: 20px;
+  margin-left: 20px;
   transition: 2s;
 }
 .sidebar ul{
