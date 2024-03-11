@@ -110,42 +110,45 @@ code {
  }
  .hero_text{
   margin-top: 100px;
+  margin-left: 20px ;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 5px ;
   
  }
  .hero_text h4{
   letter-spacing: 0.38px;
-  font-size: 38px;
+  font-size: 22px;
   font-weight: normal;
+  margin-left:200px ;
   opacity: 0;
   animation: slideBottom 1s ease forwards;
   animation-delay: .7s;
  }
  .hero_text h2{
+  margin-left: 200px;
   letter-spacing: 0.38px;
-  font-size: 52px;
+  font-size: 20px;
   font-weight: bold;
   opacity: 0;
   animation: slideRight 1s ease forwards;
   animation-delay: .7s;
+  width: 650px;
  }
   .hero_text h2 span{
   color: #d32d20;
  }
  .hero_text p{
   font-family: Arial, sans-serif;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 18px;
   text-align: center;
   width: 60%;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1.3s;
+  width: 650px;
  }
  .buttons{
   margin: 100px 0 0 25%;
