@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: .5s;
+}
+#logo:hover{
+    transform: scale(1.5);
+}
+#logo h4{
+    color: #2FB4CE;
+    font-weight: bold;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+#nav li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    position: relative;
+    transition: .5s;
+}
+
+#nav li i{
+    color:#2FB4CE ;
+}
+#nav li a{
+    width: 100%;
+    height: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    color: #606366;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+#nav li:hover{
+    transform: scale(1.5);
+}
+#nav li a:hover{
+    letter-spacing:2px;
+    color: #11b1d1;
+}
+#nav li a.active{
+    color: #2FB4CE;
+}
+#mobile{
+    display: none;
+}
+#bar{
+    color: #2FB4CE;
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 768px) {
+    #nav {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #2FB4CE;
+        transition: .4s;
+    }
+
+    #mobile{
+        display: block;
+    }
+    #nav.show{
+        right: 0px;
+    }
+    
+#nav li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    position: relative;
+    transition: .5s;
+}
+#nav li a{
+    width: 100%;
+    height: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(92, 86, 86);
+    font-size: 1.1rem;
+    transition: .5s;
+}
+#nav li i{
+    color: white ;
+}
+
+#nav li:hover{
+    transform: scale(1);
+}
+#nav li a:hover{
+    letter-spacing:0px;
+    transform: scale(1);
+    color: #11b1d1;
+}
+#nav li a.active{
+    color: white;
+    transform: scale(1);
+}
+  }
+  

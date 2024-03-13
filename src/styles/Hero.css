@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+#hero{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    opacity: 0;
+    animation:slideRight 1s forwards;
+}
+#hero_text h4{
+    color: #393939;
+}
+#hero_text h1{
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+}
+#kaku{
+    color:#7a7a7a;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+#hero_image{
+    width: 50%;
+    padding: 20px 100px;
+}
+#hero_image img{
+    width: 400px;
+    height: 400px;
+}
+#generated{
+    background-image: linear-gradient(to right, #ee7c76, #AD5ECA); /* Define your gradient colors here */
+    -webkit-background-clip: text; /* Clip the background to the text */
+     background-clip: text; /* Clip the background to the text */
+     color: transparent; 
+     font-size: 2rem;
+     padding: 0;
+     margin: 0;
+}
+#saks{
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 175px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #7a7a7a;    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: slideTop 1s forwards;
+}
+/* for less Screens */
+
+@media (max-width: 768px) {
+    
+#hero{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+#hero_text{
+    width: 100%;
+    padding: 10px;
+}
+#hero_text h1{
+    font-size: 4rem;
+}
+#kaku{
+    color:#7a7a7a;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+#hero_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    overflow: 1;
+    animation: zoomIn 1s forwards;
+}
+#hero_image img{
+    width: 250px;
+    height: 250px;
+}
+#saks{
+    gap: 30px;
+    font-size: 1.2rem;
+}
+
+#generated{
+     font-size: 1.1rem;
+}
+.blurblur{
+    height: 200px;
+    padding: 50px;
+    width: 150px;
+    background-color: #97b7da;
+    position: fixed;
+    top: 150px;
+    right: -350px;
+    border-radius: 50%;
+    box-shadow: -400px -50px 50px #75AEE9;
+}
+
+  }
+  
+
+  @keyframes slideTop {
+    from {
+      opacity: 0;
+      transform: translateY(80px); /* Move from top (off-screen) */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px); /* Move to the original position */
+    }
+  }
+  @keyframes slideRight {
+    from {
+      opacity: 0;
+      transform: translateX(80px); /* Move from top (off-screen) */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px); /* Move to the original position */
+    }
+  }
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0); /* Move from top (off-screen) */
+    }
+    to {
+      opacity: 1;
+      transform: scale(1); /* Move to the original position */
+    }
+  }
