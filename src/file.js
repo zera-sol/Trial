@@ -1,6 +1,6 @@
 export let data =[
     {
-        index: 3,
+        index: 2,
         time : 500,
         name: 'zra',
         id : "discription",
@@ -11,7 +11,7 @@ export let data =[
     },
     {
          
-        index: 5,
+        index: 2,
         name:"vol",
         time:500,
         id:"zera",
@@ -22,7 +22,7 @@ export let data =[
         text:" Providing expertise in volunteering and community engagement initiatives...",
         btnText:"Read more"},
      {
-        index:4,
+        index:2,
         time:500,
         name: "uiux",
         id:"zera",
@@ -34,7 +34,7 @@ export let data =[
         btnText:"Read more"
      },
      {
-        index:1,
+        index:2,
         time:500,
         name: "tutor",
         id:"zera",
@@ -58,7 +58,7 @@ export let data =[
         btnText:"Read more"
      },
      {
-        index:3,
+        index:2,
         time:500,
         name:"developement",
         id:"zera",

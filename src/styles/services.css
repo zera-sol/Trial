@@ -83,7 +83,7 @@
    grid-column: 6/8;
  }
  .animate {
-   animation: fadeInUp 3s ease forwards;
+   animation: fadeInUp 1s ease forwards;
  }
  #modal-container{
  color: white;
@@ -91,7 +91,7 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
- animation: ZoomIn 3s ease forwards
+ animation: ZoomIn 1s ease forwards
  }
  #contact-me{
   color: green ;
