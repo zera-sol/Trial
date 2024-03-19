@@ -5,9 +5,10 @@ function ShowDetail({title, detail, handleClick}){
      return(
      <div id="notify">
            {toast(
-        <div>
+        <div id="notify_div">
             <h2>{title}</h2>
             <p>{detail}</p>
+            <button>Contact Me</button>
         </div>
         , {
           position: "top-center",

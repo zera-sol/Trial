@@ -88,7 +88,26 @@
  #notify{
   display: none;
  }
-
+ #notify_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ #notify_div h2{
+     color: white;
+ }
+ #notify_div p{
+     color: antiquewhite;
+     text-align: center;
+     font-size: 14px;
+ }
+ #notify_div button{
+  border: 2px solid white;
+  border-radius: 25px;
+  color: green;
+  font-weight: bold;
+ }
  @media (max-width: 768px) {
   .service_container{
       padding: 10px 10px;

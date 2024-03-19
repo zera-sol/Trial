@@ -18,6 +18,7 @@ export let data =[
         image:require("./images/volunteer.avif"),
         title:"Volunteering",
         class:"service leftTop",
+        detail: "Looking to make a difference in your community? As a dedicated volunteer, I'm passionate about tackling various social issues and public concerns. From environmental conservation to supporting marginalized groups, I offer my time and skills to create positive change. Whether it's organizing community clean-ups, advocating for human rights, or assisting in disaster relief efforts, I'm committed to serving others and making a meaningful impact. Let's work together to address pressing social issues and build a brighter future for all. Contact me today to explore how I can contribute to your cause as a dedicated volunteer.",
         text:" Providing expertise in volunteering and community engagement initiatives...",
         btnText:"Read more"},
      {
@@ -28,6 +29,7 @@ export let data =[
         image:require("./images/boom.jpg"),
         title:"UI/UX Design",
         class:"service leftBottom",
+        detail:"Looking for personalized education support at home? Look no further! I provide home tutorials for students from kindergarten to high school, catering to both boys and girls. With tailored lessons, I help students excel in their studies and build confidence. Whether it's mastering math, improving reading skills, or preparing for exams, I offer dedicated guidance to meet individual needs. Enjoy the convenience of learning in a familiar environment while receiving expert instruction. Let's work together to unlock your full potential and achieve academic success. Book your home tutorial sessions today and watch your grades soar!",
         text:"Offering expert UI/UX design services to enhance digital products...",
         btnText:"Read more"
      },
@@ -39,6 +41,7 @@ export let data =[
         image:require("./images/tutor.png"),
         title:"Home Tutorial",
         class:"service rightTop",
+        detail:"Looking for personalized education support at home? Look no further! I provide home tutorials for students from kindergarten to high school, catering to both boys and girls. With tailored lessons, I help students excel in their studies and build confidence. Whether it's mastering math, improving reading skills, or preparing for exams, I offer dedicated guidance to meet individual needs. Enjoy the convenience of learning in a familiar environment while receiving expert instruction. Let's work together to unlock your full potential and achieve academic success. Book your home tutorial sessions today and watch your grades soar!",
         text:"Offering personalized home tutorial services and education consulting to students of all ages..",
         btnText:"Read more"
      },
@@ -50,6 +53,7 @@ export let data =[
         image:require("./images/freelance.png"),
         title:"Freelancing",
         class:"service rightBottom",
+        detail:"Looking to outsource your development projects to a reliable freelancer? Your search ends here! I specialize in freelance development services, offering expertise in website and app development tailored to your specific requirements. With a focus on quality and efficiency, I deliver custom solutions that meet your unique business needs. Whether it's building a responsive website, developing a mobile application, or tackling complex coding challenges, I'm here to help. Benefit from my flexible scheduling, transparent communication, and commitment to excellence. Let's collaborate to bring your vision to life and achieve your project goals. Contact me today to discuss how I can support your development needs as a freelance expert!",
         text:"Offering freelance development services for various projects, including web development...",
         btnText:"Read more"
      },
@@ -61,6 +65,7 @@ export let data =[
         image:require("./images/voo.jpg"),
         title:"Development",
         class:"service bottom",
+        detail: "Looking for reliable development solutions to bring your digital projects to life? You've come to the right place! I specialize in website and app development services, catering to diverse needs and industries. From coding to deployment, I prioritize efficiency and functionality to ensure seamless user experiences. Whether it's building a responsive website or developing a feature-rich mobile application, I leverage cutting-edge technologies to deliver high-quality solutions. Let's collaborate to turn your ideas into reality with custom development tailored to your specifications. Trust me to handle the technical aspects while you focus on growing your business. Contact me today to kickstart your digital journey!",
         text:"Development services for various projects, including web development, mobile app development..",
         btnText:"Read more"
     }

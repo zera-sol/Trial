@@ -52,7 +52,7 @@ function RenderServices(){
                        return(
                           <ShowDetail
                                title={a.title}
-                               detail ={a.text} 
+                               detail ={a.detail} 
                                handleClick={addValue}/>
                        )
                         
