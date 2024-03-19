@@ -85,28 +85,28 @@
  .animate {
    animation: fadeInUp 3s ease forwards;
  }
- #notify{
-  display: none;
+ #modal-container{
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ animation: ZoomIn 3s ease forwards
  }
- #notify_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
- }
- #notify_div h2{
-     color: white;
- }
- #notify_div p{
-     color: antiquewhite;
-     text-align: center;
-     font-size: 14px;
- }
- #notify_div button{
+ #contact-me{
+  color: green ;
   border: 2px solid white;
-  border-radius: 25px;
-  color: green;
+  border-radius: 10px;
+ }
+ #close_modal{
+  color: red;
   font-weight: bold;
+  background-color: #2FB4CE;
+  border: 2px solid wheat;
+  position: absolute;
+  border-radius:10px;
+  top: 0;
+  right: 0;
  }
  @media (max-width: 768px) {
   .service_container{

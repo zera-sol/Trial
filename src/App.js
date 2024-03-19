@@ -3,7 +3,6 @@ import "./index.css"
 import NavBar from "./compnents/Nav";
 import Hero from "./compnents/zera";
 import RenderServices from "./servicerender";
-import { ToastContainer} from 'react-toastify';
 
 function App(){
     const toasStyle = {
@@ -20,9 +19,6 @@ function App(){
        <NavBar />
        <Hero />
        <RenderServices />
-       <ToastContainer 
-                toastStyle={toasStyle}            
-                />
 
     </div>
     )
