@@ -100,10 +100,11 @@
  }
  #close_modal{
   color: red;
+  margin-left: 90%;
+  margin-bottom: 20px;
   font-weight: bold;
   background-color: #2FB4CE;
   border: 2px solid wheat;
-  position: absolute;
   border-radius:10px;
   top: 0;
   right: 0;
@@ -198,9 +199,6 @@
    }
    .animate {
      animation: fadeInUp 3s ease forwards;
-   }
-   #notify{
-    display: none;
    }
  }
 
