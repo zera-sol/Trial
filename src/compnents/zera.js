@@ -5,8 +5,8 @@ function Hero(){
     const [text] = useTypewriter({
         words: ['Web designer & Developer', 'Passionate about development.', 'Eager to learn more.', 'Excited to innovate solutions.'],
         loop:{},
-        typeSpeed:100,
-        deleteSpeed:120
+        typeSpeed:50,
+        deleteSpeed:20
     })
     return(
         <>
