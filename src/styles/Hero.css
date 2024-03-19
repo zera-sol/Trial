@@ -53,8 +53,7 @@
     gap: 175px;
     font-size: 1.5rem;
     margin-top: 30px;
-    color: #7a7a7a;    
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #7a7a7a;
     opacity: 0;
     animation: slideTop 1s forwards;
 }
@@ -96,7 +95,7 @@
 }
 #saks{
     gap: 30px;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
 }
 
 #generated{

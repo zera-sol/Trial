@@ -4,13 +4,7 @@ import "../styles/services.css";
 function Services(props) {
   const ref = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-  const [display, setDisplay] = useState('');
-
-  function showService(text){
-    setDisplay(text)
-    alert(text)
-  }
-
+  
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -43,7 +37,7 @@ function Services(props) {
                 <div className="service_text">
                     <h4>{props.title}</h4>
                     <p>{props.text}</p>
-                    {props.btnText && <button onClick={() => showService(props.name)}>{props.btnText}</button>}
+                    {props.btnText && <button onClick={props.handleClick}>{props.btnText}</button>}
                 </div>
             </div>
     </div>

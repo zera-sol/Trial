@@ -13,39 +13,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav .nav_list ul{
-  display: flex;
-  list-style-type: none;
-}
-.nav .nav_list ul li{
- padding: 20px;
-}
-.nav .nav_list ul li a{
-  font-weight: bold;
-  text-decoration: none;
-  color: #606366;
-  font-size: 1.1rem;
- }
- .nav_list ul li.active a {
-  color: #2FB4CE;
-}
-.logo{
-  padding: 10px;
-  background-color: #2FB4CE;
-  margin-right: 5px;
-  border-radius: 20px;
-}
-.logo i{
-  font-weight: bold;
-  color: white;
-}
-.dad{
-  font-family: cursive;
-  font-weight: bold;
-  font-size: 30px;
+.boo{
+  position: relative;
 }

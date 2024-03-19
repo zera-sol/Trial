@@ -1,21 +1,34 @@
 import React, { useState } from 'react';
-import ComponentB from './B';
 
-function ComponentA() {
-  const [x, setX] = useState(0); // State variable x and its setter function setX
-
-  const handleClick = () => {
-    setX(x + 1); // Increment x by 1 when the button is clicked
-  };
-
+function Notification({ message, onClose }) {
   return (
-    <div>
-      <h2>Component A</h2>
-      <button onClick={handleClick}>Increment X</button>
-      <p>Value of X: {x}</p>
-      <ComponentB x={x} /> {/* Pass the value of x as a prop to ComponentB */}
+    <div className="notification">
+      <div className="notification-content">
+        {message}
+      </div>
+      <button onClick={onClose}>Close</button>
     </div>
   );
 }
 
-export default ComponentA;
+function MyComponent() {
+  const [showNotification, setShowNotification] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowNotification(true);
+  };
+
+  const handleCloseNotification = () => {
+    setShowNotification(false);
+  };
+
+  return (
+    <div>
+      <h1>My Component</h1>
+      <button onClick={handleButtonClick}>Show Notification</button>
+      {showNotification && <Notification message={<div><h3>Custom Alert</h3><p>This is a custom alert message!</p></div>} onClose={handleCloseNotification} />}
+    </div>
+  );
+}
+
+export default MyComponent;

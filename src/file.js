@@ -2,6 +2,7 @@ export let data =[
     {
         index: 3,
         time : 500,
+        name: 'zra',
         id : "discription",
         title : "My Awesome Services",
         class :"service center",
