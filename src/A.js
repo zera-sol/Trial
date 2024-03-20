@@ -15,13 +15,8 @@ function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
   const handleButtonClick = () => {
-    setShowNotification(true);
+    setShowNotification(!showNotification);
   };
-
-  const handleCloseNotification = () => {
-    setShowNotification(false);
-  };
-
   return (
     <div>
       <h1>My first Component</h1>
