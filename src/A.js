@@ -24,9 +24,9 @@ function MyComponent() {
 
   return (
     <div>
-      <h1>My Component</h1>
+      <h1>My first Component</h1>
       <button onClick={handleButtonClick}>Show Notification</button>
-      {showNotification && <Notification message={<div><h3>Custom Alert</h3><p>This is a custom alert message!</p></div>} onClose={handleCloseNotification} />}
+      {showNotification && <Notification message={<div><h3>Custom Alert</h3><p>This a paragraph writing techniques.</p></div>} onClose={handleCloseNotification} />}
     </div>
   );
 }
