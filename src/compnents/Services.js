@@ -53,7 +53,7 @@ function Services(props) {
     };
   }, []);
 
-  const delayTime = props.time * props.index; // Calculate delay time based on time variable and index
+  const delayTime = 0 // Calculate delay time based on time variable and index
 
   return (          
             <div

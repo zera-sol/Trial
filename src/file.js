@@ -29,7 +29,7 @@ export let data =[
         image:require("./images/boom.jpg"),
         title:"UI/UX Design",
         class:"service leftBottom",
-        detail:"Looking for personalized education support at home? Look no further! I provide home tutorials for students from kindergarten to high school, catering to both boys and girls. With tailored lessons, I help students excel in their studies and build confidence. Whether it's mastering math, improving reading skills, or preparing for exams, I offer dedicated guidance to meet individual needs. Enjoy the convenience of learning in a familiar environment while receiving expert instruction. Let's work together to unlock your full potential and achieve academic success. Book your home tutorial sessions today and watch your grades soar!",
+        detail:"Seeking user-friendly website and app design solutions? Your search ends here! I specialize in UI/UX design services, crafting intuitive and visually appealing interfaces for a seamless user experience. From concept to implementation, I prioritize functionality and aesthetics to ensure your digital platforms stand out. Whether you're launching a new product or revamping an existing one, I tailor designs to suit your brand identity and target audience. Let's collaborate to create captivating interfaces that engage users and drive conversions. Elevate your online presence with my UI/UX expertise—contact me today to bring your vision to life!",
         text:"Offering expert UI/UX design services to enhance digital products...",
         btnText:"Read more"
      },
