@@ -1,17 +1,16 @@
-
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAuth, GoogleAuthProvider} from "firebase/auth"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAHPcWmKJSDh5iJgqi0vw2hIHaVOaF46Fw",
-  authDomain: "zera-sol-portfolio.firebaseapp.com",
-  projectId: "zera-sol-portfolio",
-  storageBucket: "zera-sol-portfolio.appspot.com",
-  messagingSenderId: "279423528438",
-  appId: "1:279423528438:web:21e4d2e624de8b43692bd7",
-  measurementId: "G-FY269CHMCR"
+  apiKey: "AIzaSyDBJGSaYidEdcjiGqzqBKT4VU9b-g0vy5w",
+  authDomain: "zera-react-16c82.firebaseapp.com",
+  projectId: "zera-react-16c82",
+  storageBucket: "zera-react-16c82.appspot.com",
+  messagingSenderId: "1052072583227",
+  appId: "1:1052072583227:web:69c021038767042581bc1e",
+  measurementId: "G-8LVZ9LGGB4"
 };
 
-
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const auth = getAuth(app)
+export const googleProvider = new GoogleAuthProvider()
