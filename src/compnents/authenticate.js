@@ -5,7 +5,6 @@ import { auth , googleProvider} from '../config/firebase';
 function SignIn() {
  const [email, setEmail] = useState('')
  const [password, setPassword] = useState('')
- alert(auth?.currentUser?.displayName)
 
  const handleSignIn = () =>{
   createUserWithEmailAndPassword(auth, email, password)

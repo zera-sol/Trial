@@ -4,6 +4,7 @@ import NavBar from "./compnents/Nav";
 import Hero from "./compnents/zera";
 import RenderServices from "./servicerender";
 import  SignIn from "./compnents/authenticate";
+import Projects from "./compnents/Project";
 
 function App(){
     return(
@@ -11,9 +12,9 @@ function App(){
        
        <NavBar />
        <SignIn/>
+       <Projects />
        <Hero />
        <RenderServices />
-
     </div>
     )
 }  
