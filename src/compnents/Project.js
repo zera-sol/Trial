@@ -33,7 +33,7 @@ export default function Projects(){
             { 
                 projectList.map((project) => (
                     <div>
-                        <h1>{project.title}</h1>
+                        <h1 style={project.isDone? "green": "red"}>{project.title}</h1>
                         <p>{project.description}</p>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">Visit page</a>
                     </div>

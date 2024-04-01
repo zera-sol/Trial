@@ -1,5 +1,6 @@
 import { useState } from "react"
-
+import { db } from "../config/firebase"
+import { addDoc, collection } from "firebase/firestore"
 export default function AddForm(){
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('')
@@ -12,6 +13,25 @@ export default function AddForm(){
     }
     function setFalse(){
         setIsDone(false)
+    }
+    const addDataToFirestore = async (collectionName, data) => {
+        try {
+          const docRef = await addDoc(collection(db, collectionName), data);
+          console.log("Document written with ID: ", docRef.id);
+        } catch (error) {
+          console.error("Error adding document: ", error);
+        }
+      };
+
+      const dataToAdd = {
+        "date": date,
+        "description": description,
+        "isDone": isDone,
+        "link": link
+      };
+     
+    function addToDataBase(){
+        addDataToFirestore("projects", dataToAdd)
     }
     return(
         <div>
@@ -31,6 +51,7 @@ export default function AddForm(){
             <input type="radio" name="isdone" onClick={setTrue}/>
             <label>No:</label>
             <input type="radio" name="isdone" onClick={setFalse}/>
+            <button onClick={addToDataBase}>Submit</button>
 
         </div>
     )
