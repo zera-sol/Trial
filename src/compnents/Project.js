@@ -1,44 +1,39 @@
 import { useEffect, useState } from "react"
 import { db } from "../config/firebase"
-import {getDocs, collection} from "firebase/firestore"
+import {getDocs, collection, doc} from "firebase/firestore"
 
 
 export default function Projects(){
  const [projectList, setProjectList] = useState([]);
 
- const collectionRef = collection(db, "projects")
-
- useEffect(() => {
-   const getProjectList = async () =>{
-     // read the project list from the database
-     //then set the list to the variable = projectList
+ const fetchData = async () => {
     try{
-        const data = await getDocs(collectionRef)
-        const filteredData = data.docs.map((a) => ({
-            ...a.data(),
-            id: a.id
+        const querySnapshot = await getDocs(collection(db, "projects"));
+        const documents= querySnapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
         }))
-        setProjectList(filteredData)
+        setProjectList(documents)
     }catch(err){
-        console.error(err)
+        console.error("There is something wrong while fetching from the database")
     }
-     
-   }
+ }
+        useEffect(() => {
+            fetchData()
+        }, [])
 
-   getProjectList()
- }, [])
-
+console.log(projectList)
     return(
         <div>
-            { 
-                projectList.map((project) => (
-                    <div>
-                        <h1 style={project.isDone? "green": "red"}>{project.title}</h1>
-                        <p>{project.description}</p>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer">Visit page</a>
-                    </div>
-                ))
-            }
+           {
+            projectList.map(a =>(
+             <> 
+                <h1 >{a.title}</h1>
+                <p style={{color: a.isDone ? "green" : "red"}}>{a.description}</p>
+                <button>{a.link}</button>
+            </>
+            ))
+           }
         </div>
       
     )

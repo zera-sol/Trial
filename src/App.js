@@ -6,17 +6,18 @@ import RenderServices from "./servicerender";
 import  SignIn from "./compnents/authenticate";
 import Projects from "./compnents/Project";
 import AddForm from "./compnents/form";
+// import YourComponent from "./compnents/project2";
 
 function App(){
     return(
     <div className="boo">
        
        <NavBar />
-       <AddForm />
        <SignIn/>
        <Projects />
        <Hero />
        <RenderServices />
+       <AddForm />
     </div>
     )
 }  
