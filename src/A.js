@@ -10,7 +10,11 @@ function Notification({ message, onClose }) {
     </div>
   );
 }
-
+function findLargestNumber(arr){
+      for(let i=0; i<arr.length; i++){
+        
+      }
+}
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
