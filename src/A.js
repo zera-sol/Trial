@@ -23,6 +23,9 @@ function findLargestNumber(arr){
 console.log(findLargestNumber(numbers))
 function fibonacci(num){
   let fibSeq = [0, 1];
+  for(let i=2; i < num; i++){
+    
+  }
 }
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
