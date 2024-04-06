@@ -27,6 +27,7 @@ function fibonacci(num){
     let value = fibSeq[i-1] + fibSeq[i-2];
     fibSeq.push(value);
   }
+  return fibSeq;
 }
 console.log(fibonacci(5))
 function MyComponent() {
