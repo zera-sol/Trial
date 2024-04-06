@@ -28,7 +28,7 @@ function fibonacci(num){
     fibSeq.push(value);
   }
 }
-console.log(fibSeq(5))
+console.log(fibonacci(5))
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
