@@ -21,6 +21,9 @@ function findLargestNumber(arr){
   return max; 
 }
 console.log(findLargestNumber(numbers))
+function fibonacci(num){
+  
+}
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
