@@ -24,9 +24,11 @@ console.log(findLargestNumber(numbers))
 function fibonacci(num){
   let fibSeq = [0, 1];
   for(let i=2; i < num; i++){
-    
+    let value = fibSeq[i-1] + fibSeq[i-2];
+    fibSeq.push(value);
   }
 }
+console.log(fibSeq(5))
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
