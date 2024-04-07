@@ -37,7 +37,9 @@ function finMinimumNumber(arr){
       minNumber = arr[i]
     }
   }
+  return minNumber;
 }
+console.log(findMinimumNumber(numbers))
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
