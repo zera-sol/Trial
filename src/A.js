@@ -31,7 +31,7 @@ function fibonacci(num){
 }
 console.log(fibonacci(5))
 function finMinimumNumber(arr){
-  
+  let minNumber = arr[0]
 }
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
