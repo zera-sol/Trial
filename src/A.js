@@ -30,6 +30,9 @@ function fibonacci(num){
   return fibSeq;
 }
 console.log(fibonacci(5))
+function finMinimumNumber(arr){
+  
+}
 function MyComponent() {
   const [showNotification, setShowNotification] = useState(false);
 
