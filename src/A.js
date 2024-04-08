@@ -12,12 +12,16 @@ function Notification({ message, onClose }) {
 }
 function countDigits(number) {
     // Convert the number to a string
+    let numArray = []
     let numString = String(number);
     
     // Calculate the length of the string (number of digits)
     let numDigits = numString.length;
     
-    return numDigits;
+    for(let i =0; i< numDigits; i++){
+      numArray.push(numString[i])
+   }
+  return numArray;
 }
 
 // Example number
