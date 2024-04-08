@@ -11,8 +11,9 @@ function Notification({ message, onClose }) {
   );
 }
 function reverseNum(num){
+  let str = num.toString();
   let numArray = []
-  for(let i=0; i<num.length;i++){
+  for(let i=0; i<str.length;i++){
     let back = num % 10;
      numArray.push(back);
     let lastDeg = back * 10;
