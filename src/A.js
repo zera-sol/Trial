@@ -18,7 +18,7 @@ function reverseNum(num){
     let lastDeg = back * 10;
      num = num - lastDeg;
   }
-  
+  return numArray;
 }
 
 let numbers = [6,7,4,8,0,-2];
