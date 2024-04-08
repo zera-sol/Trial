@@ -18,12 +18,12 @@ function countDigits(number) {
     // Calculate the length of the string (number of digits)
     let numDigits = numString.length;
     
-    for(let i =0; i< numDigits; i++){
+    for(let i =numDigits -1; i>= 0; i--){
       numArray.push(numString[i])
    }
-  return numArray;
+  return Number(numArray.merge(""));
 }
-
+ 
 
 let numbers = [6,7,4,8,0,-2];
 function findLargestNumber(arr){
