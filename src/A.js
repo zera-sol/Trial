@@ -10,14 +10,24 @@ function Notification({ message, onClose }) {
     </div>
   );
 }
-function reverseNum(num){
-  let str = num.toString();
-  let numArray = []
-  for(let i = str.length - 1; i>=0;i--){
-    numArray.push(str[i])
-  }
-  return numArray;
+function countDigits(number) {
+    // Convert the number to a string
+    let numString = String(number);
+    
+    // Calculate the length of the string (number of digits)
+    let numDigits = numString.length;
+    
+    return numDigits;
 }
+
+// Example number
+let exampleNumber = 98765;
+
+// Call the function to count the digits
+let totalDigits = countDigits(exampleNumber);
+
+console.log(The total number of digits in ${exampleNumber} is: ${totalDigits});
+
 
 let numbers = [6,7,4,8,0,-2];
 function findLargestNumber(arr){
