@@ -10,6 +10,11 @@ function Notification({ message, onClose }) {
     </div>
   );
 }
+function reverseNum(num){
+  let numArray = []
+  
+}
+
 let numbers = [6,7,4,8,0,-2];
 function findLargestNumber(arr){
   let max= 0;
