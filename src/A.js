@@ -16,6 +16,7 @@ function ommitRepeation(str){
       str[i] = "";
     }
   }
+  return str;
 }
 function countDigits(number) {
     // Convert the number to a string
