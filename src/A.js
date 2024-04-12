@@ -12,8 +12,8 @@ function Notification({ message, onClose }) {
 }
 function ommitRepeation(str){
   for(let i = 1; i < str.length; i++){
-    if(){
-      
+    if(str[i] === str[i - 1]){
+      str[i] = "";
     }
   }
 }
