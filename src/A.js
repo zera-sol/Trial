@@ -10,8 +10,12 @@ function Notification({ message, onClose }) {
     </div>
   );
 }
-function ommitRepeation(){
-  
+function ommitRepeation(str){
+  for(let i = 1; i < str.length; i++){
+    if(){
+      
+    }
+  }
 }
 function countDigits(number) {
     // Convert the number to a string
