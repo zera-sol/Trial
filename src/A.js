@@ -10,6 +10,9 @@ function Notification({ message, onClose }) {
     </div>
   );
 }
+function ommitRepeation(){
+  
+}
 function countDigits(number) {
     // Convert the number to a string
     let numArray = []
