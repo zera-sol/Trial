@@ -11,12 +11,11 @@ function Notification({ message, onClose }) {
   );
 }
 function ommitRepeation(str){
-  for(let i = 1; i < str.length; i++){
-    if(str[i] === str[i - 1]){
-      str[i] = "";
-    }
+  let arr = []
+  for(let i = 0; i < str.length; i++){
+    arr.push(str[i])
   }
-  return str;
+  return arr;
 }
 function countDigits(number) {
     // Convert the number to a string
