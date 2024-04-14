@@ -15,6 +15,11 @@ function ommitRepeation(str){
   for(let i = 0; i < str.length; i++){
     arr.push(str[i])
   }
+  for(let i = 1; i < arr.length; i++){
+    if(arr[i] === arr[i - 1]){
+      
+    }
+  }
   return arr;
 }
 function countDigits(number) {
