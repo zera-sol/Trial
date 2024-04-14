@@ -20,7 +20,7 @@ function ommitRepeation(str){
       arr.splice(i, 1)
     }
   }
-  return arr.join("");
+  return arr.join("-");
 }
 function countDigits(number) {
     // Convert the number to a string
