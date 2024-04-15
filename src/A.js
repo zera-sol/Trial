@@ -17,7 +17,7 @@ function ommitRepeation(str){
       arr.push(str[i])
     }
   }
-  return arr
+  return arr.join("")
 }
 function countDigits(number) {
     // Convert the number to a string
