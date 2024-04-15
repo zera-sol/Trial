@@ -10,6 +10,18 @@ function Notification({ message, onClose }) {
     </div>
   );
 }
+// $ git commit -m "commmit 1"
+// Auto packing the repository in background for optimum performance.
+// See "git help gc" for manual housekeeping.
+// Enumerating objects: 18, done.
+// Counting objects: 100% (6/6), done.
+// Delta compression using up to 2 threads
+// Compressing objects: 100% (6/6), done.
+// Writing objects: 100% (6/6), done.
+// Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+// Removing duplicate objects: 100% (256/256), done.
+
+
 function ommitRepeation(str){
   let arr = []
   for(let i = 0; i < str.length; i++){
