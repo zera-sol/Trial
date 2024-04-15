@@ -13,14 +13,11 @@ function Notification({ message, onClose }) {
 function ommitRepeation(str){
   let arr = []
   for(let i = 0; i < str.length; i++){
-    arr.push(str[i])
-  }
-  for(let i = 1; i < arr.length; i++){
-    if(arr[i] === arr[i - 1]){
-      arr.splice(i, 1)
+    if(arr.indexOf(str[i]) < 0){
+      arr.push(str[i])
     }
   }
-  return arr.join("-");
+  return arr
 }
 function countDigits(number) {
     // Convert the number to a string
