@@ -59,6 +59,7 @@ function findLargestNumber(arr){
 console.log(findLargestNumber(numbers))
 function fibonacci(num){
   let fibSeq = [0, 1];
+  console.log(fibSeq);
   for(let i=2; i < num; i++){
     let value = fibSeq[i-1] + fibSeq[i-2];
     fibSeq.push(value);
