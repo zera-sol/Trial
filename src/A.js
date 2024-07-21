@@ -45,7 +45,7 @@ function countDigits(number) {
   return Number(numArray.merge(""));
 }
  
-
+let kal = "Kaleb Mulugeta";
 let numbers = [6,7,4,8,0,-2];
 function findLargestNumber(arr){
   let max= 0;
