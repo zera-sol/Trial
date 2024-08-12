@@ -13,7 +13,7 @@ function Hero(){
         <div id='hero'>
               <div id='hero_text'>
                     <h4>Hello there, my name is</h4>
-                    <h1>Zerihun <span id="kaku">Solomon</span></h1>
+                    <h1>Tinsae <span id="kaku">Paulos</span></h1>
                     <p id='generated'>{text} <Cursor /></p>
               </div>
               <div id="hero_image">
